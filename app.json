@@ -1,0 +1,107 @@
+{
+  "name": "𝚵𝚫𝐆𝐋𝚵🦅",
+  "description": "𝚵𝚫𝐆𝐋𝚵 Whatsapp bot © ᴄʀᴇᴀᴛᴇᴅ ʙʏ  𝑆𝛨𝛥𝑈𝛮 · · ·",
+  "logo": "https://i.imgur.com/wTX7qhm.jpeg",
+  "keywords": [
+    "EagleBot"
+  ],
+  "success_url": "/",
+  "stack": "heroku-24",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": ""
+    },
+    "PREFIX": {
+      "description": "Set bot prefix(#,$,-!,?)",
+      "required": true,
+      "value": "."
+    },
+    "MODE": {
+      "description": "select your bot work type public-private-inbox-group.",
+      "required": true,
+      "value": "public"
+    },
+    "AUTO_VOICE": {
+      "description": "Make it true if you want bot auto voice.",
+      "required": true,
+      "value": "true"
+    },
+    "AUTO_REPLY": {
+      "description": "Make it true if you want bot auto reply.",
+      "required": true,
+      "value": "true"
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Make it true if you want bot auto auto_read_status.",
+      "required": true,
+      "value": "true"
+    },
+    "AUTO_STATUS_REPLY": {
+      "description": "Statues reply",
+      "required": true,
+      "value": "false"
+    },
+    "STATUS_REPLY_MSG": {
+      "description": "Statues reply msg",
+      "required": true,
+      "value": "*_`AUTO STATUS JUST NOW SEEN BY LARA MD`_*"
+    },
+    "AUTO_STATUS_REACT": {
+      "description": "Make it tru status auto react to any emojis",
+      "required": true,
+      "value": "true"
+    },
+    "FAKE_RECORDING": {
+      "description": "Make it true if you want bot fake record.",
+      "required": true,
+      "value": "true"
+    },
+    "AUTO_TYPING": {
+      "description": "Make it true if you want bot auto typing",
+      "required": true,
+      "value": "true"
+    },
+    "AUTO_REACT": {
+      "description": "Make it true if you want bot AutoReact.",
+      "required": true,
+      "value": "true"
+    },
+    "ANTI_LINK": {
+      "description": "Group link shear not allowed and kick out user",
+      "required": true,
+      "value": "true"
+    },
+    "ANTI_BAD": {
+      "description": "Bad word not allowed",
+      "required": true,
+      "value": "true"
+    },
+    "READ_MESSAGE": {
+      "description": "Auto read new messages",
+      "required": true,
+      "value": "false"
+    },
+    "ALWAYS_ONLINE": {
+      "description": "Make it true if show you are always online it false if show your last seen",
+      "required": true,
+      "value": "false"
+    },
+    "ANTI_DELETE": {
+      "description": "Delete massages show",
+      "required": true,
+      "value": "true"
+    },
+    "INBOX_BLOCK": {
+      "description": "Inbox Auto block",
+      "required": true,
+      "value": "false"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
+}
